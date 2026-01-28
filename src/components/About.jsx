@@ -1,3 +1,5 @@
+import profilePic from "../assets/profilepicture.jpg";
+
 export default function About() {
   return (
     <section id="about" className="py-16 scroll-mt-24">
@@ -24,13 +26,13 @@ export default function About() {
               up-to-date technical skills.
             </p>
             <div className="mt-6">
-              <a href="./Sheeba_Siddiqui_Frontend_Developer_Resume.pdf" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-500/20 transition-colors duration-300 text-sm font-medium">
+              <a href="/sheeba-portfolio/Sheeba_Siddiqui_Resume.pdf" target="_blank"rel="noopener noreferrer" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-500/20 transition-colors duration-300 text-sm font-medium">
                 Download Resume </a>
            </div>
           </div>
           <div className="bg-slate-950 rounded-2xl p-8 flex items-center justify-center">
             <div className="w-64 h-64 rounded-full bg-slate-800 flex items-center justify-center text-slate-500 text-sm">
-              <img src="/src/assets/profilepicture.jpg" alt="Profile" className="w-full h-full rounded-full object-cover" />
+              <img src={profilePic} alt="Profile" className="w-full h-full rounded-full object-cover" />
             </div>
           </div>
         </div>
