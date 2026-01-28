@@ -24,7 +24,7 @@ export default function About() {
               up-to-date technical skills.
             </p>
             <div className="mt-6">
-              <a href="/Sheeba_Siddiqui_Frontend_Developer_Resume.pdf" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lgbg-indigo-500/10 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-500/20 transition-colors duration-300 text-sm font-medium">
+              <a href="./Sheeba_Siddiqui_Frontend_Developer_Resume.pdf" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-500/20 transition-colors duration-300 text-sm font-medium">
                 Download Resume </a>
            </div>
           </div>
