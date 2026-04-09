@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Personal Portfolio",
     description:
-      "A modern, responsive portfolio built with React and Tailwind CSS. Focused on performance, clean architecture, and accessibility.",
+      "Built a responsive portfolio using React, Tailwind CSS, focusing on performance, clean architecture, and reusable components.",
     tech: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/shesiddi/sheeba-portfolio",
     live: "#",
@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "Crypto Dashboard",
     description:
-      "Real-time cryptocurrency dashboard built with React, TypeScript, and WebSockets. Displays live candle chart and order book using a mock Node.js backend.",
+      "Developed a real-time cryptocurrency dashboard with live data updates, interactive charts, and optimized rendering for performance.",
     tech: [
       "React",
       "TypeScript",
