@@ -11,9 +11,6 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 # Sheeba Siddiqui – Frontend Portfolio
 
@@ -23,17 +20,10 @@ This project is built using a production-ready React stack and reflects how I st
 
 ---
 
-## Live Demo
-Coming soon
-
----
-
 ## Tech Stack
 
 - **React** (Vite)
 - **Tailwind CSS** for styling
-- **Redux Toolkit** for global UI state
-- **GraphQL (Apollo Client)** for data fetching
 - **Recharts** for data visualization
 - **Modern ES6+ JavaScript**
 
@@ -58,13 +48,7 @@ Fast development server, modern bundling, and excellent developer experience.
 ### Why Tailwind CSS?
 Utility-first styling allows rapid iteration while maintaining consistency and responsiveness.
 
-### Why Redux + GraphQL?
-- **GraphQL** handles server-side data requirements efficiently.
-- **Redux Toolkit** manages client-side UI state cleanly.
-- Clear separation of concerns improves scalability.
-
 ### Performance Considerations
-- Component memoization
 - Code splitting with lazy loading
 - Optimized rendering for charts and lists
 - Minimal re-renders through clean state management
