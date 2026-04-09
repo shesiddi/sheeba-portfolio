@@ -2,9 +2,9 @@ export const projects = [
   {
     title: "Personal Portfolio",
     description:
-      "A modern, responsive portfolio built with React, Tailwind CSS, Redux Toolkit, and GraphQL. Focused on performance, clean architecture, and accessibility.",
-    tech: ["React", "Tailwind CSS", "Redux Toolkit", "GraphQL", "Vite"],
-    github: "#",
+      "A modern, responsive portfolio built with React and Tailwind CSS. Focused on performance, clean architecture, and accessibility.",
+    tech: ["React", "Tailwind CSS", "Vite"],
+    github: "https://github.com/shesiddi/sheeba-portfolio",
     live: "#",
   },
   {

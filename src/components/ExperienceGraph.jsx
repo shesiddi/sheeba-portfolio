@@ -10,28 +10,22 @@ import { experienceGraphData } from "../data/experienceGraph";
 
 export default function ExperienceGraph() {
   return (
-    <section className="py-24 bg-slate-900/40">
-      <div className="max-w-6xl mx-auto px-6">
-        <h3 className="text-3xl font-bold mb-4">Experience Growth</h3>
+    <section className="py-10 md:py-14 bg-slate-900/40">
+      <div className="max-w-5xl mx-auto px-4 md:px-6">
 
-        <p className="text-slate-400 max-w-2xl mb-10">
-          A visual overview of my frontend journey across enterprise and
-          fintech environments, reflecting growth in responsibility,
-          complexity, and impact.
+        <h3 className="text-xl md:text-2xl font-semibold mb-3 text-gray-200">
+          Experience Growth
+        </h3>
+
+        <p className="text-sm md:text-base text-slate-400 max-w-2xl mb-6 md:mb-8">
+          A visual overview of my frontend journey across enterprise and fintech environments, reflecting growth in responsibility, complexity, and impact.
         </p>
 
-        <div className="h-72 md:h-96 bg-slate-950 rounded-2xl p-6">
+        <div className="h-64 md:h-80 bg-slate-950 rounded-2xl p-4 md:p-5">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={experienceGraphData}>
-              <XAxis
-                dataKey="year"
-                stroke="#94a3b8"
-                tickLine={false}
-              />
-              <YAxis
-                hide
-                domain={[0, 9]}
-              />
+              <XAxis dataKey="year" stroke="#94a3b8" tickLine={false} />
+              <YAxis hide domain={[0, 9]} />
               <Tooltip
                 contentStyle={{
                   backgroundColor: "#020617",
@@ -45,19 +39,19 @@ export default function ExperienceGraph() {
                   props.payload.label,
                 ]}
               />
-            <Line
+              <Line
                 type="monotone"
                 dataKey="level"
                 stroke="#6366f1"
-                strokeWidth={3}
-                dot={{ r: 4 }}
-                activeDot={{ r: 6 }}
-                isAnimationActive={true}
-                animationDuration={1200}
-                />
+                strokeWidth={2}
+                dot={{ r: 3 }}
+                activeDot={{ r: 5 }}
+                animationDuration={1000}
+              />
             </LineChart>
           </ResponsiveContainer>
         </div>
+
       </div>
     </section>
   );

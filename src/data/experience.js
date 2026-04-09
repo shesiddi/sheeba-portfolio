@@ -3,7 +3,7 @@ export const experienceList = [
     role: "Freelance Frontend Developer",
     company: "Freelance Frontend Developer",
     location: "Remote",
-    duration: "Dev 2024 – Present",
+    duration: "Dec 2024 – Present",
     highlights: [
       "Developed responsive web applications using React, Next.js, and modern JavaScript (ES6+)",
       "Designed reusable UI components with focus on performance and scalability ",

@@ -9,7 +9,7 @@ export const skills = [
   },
   {
     title: "Data & Visualization",
-    items: ["REST APIs", "WebSockets", "Chart.js", "ApexCharts", "Highcharts", "amCharts"],
+    items: ["REST APIs", "WebSockets", "Chart.js", "ApexCharts", "Highcharts", "amCharts","Recharts"],
   },
   {
     title: "Performance & Architecture",
