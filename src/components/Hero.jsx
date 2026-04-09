@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative pt-16 md:pt-24 pb-8 md:pb-20">
+    <section className="relative pt-24 md:pt-28 pb-8 md:pb-20">
       <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/10 via-transparent to-transparent" />
         <div className="relative max-w-5xl mx-auto px-4 md:px-6">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-200">
