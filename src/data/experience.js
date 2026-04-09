@@ -1,6 +1,6 @@
 export const experienceList = [
     {
-    role: "FreelanceFrontend Developer",
+    role: "Freelance Frontend Developer",
     company: "Freelance Frontend Developer",
     location: "Dubai, UAE",
     duration: "Dev 2024 – Present",
