@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="relative pt-16 min-h-screen flex items-center text-3xl font-bold">
       {/* Subtle gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/10 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-r from-indigo-500/10 via-transparent to-transparent" />
           <div className="relative max-w-8xl max-w-10lg mx-auto px-6 pt-8">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               Sheeba Siddiqui

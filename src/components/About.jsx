@@ -21,9 +21,7 @@ export default function About() {
               collaborating closely with product and backend teams.
             </p>
             <p className="mt-4 text-slate-400 leading-relaxed">
-              After a planned maternity and health recovery break, I am now
-              returning to full-time frontend roles with renewed focus and
-              up-to-date technical skills.
+              Recently, I’ve been engaged in selective freelance frontend projects, focusing on building scalable, performance-driven applications while advancing my expertise in React, Next.js, and AI-integrated UI development. I’m now seeking a full-time opportunity where I can bring this experience into a larger product environment.
             </p>
             <div className="mt-6">
               <a href={`${import.meta.env.BASE_URL}public/Sheeba_Siddiqui_Frontend_Developer_CV.pdf`} target="_blank"rel="noopener noreferrer" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-500/20 transition-colors duration-300 text-sm font-medium">
