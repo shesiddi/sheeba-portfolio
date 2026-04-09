@@ -17,7 +17,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # Sheeba Siddiqui – Frontend Portfolio
 
-A modern, responsive frontend portfolio showcasing my experience as a Senior Frontend Developer with a focus on performance, clean architecture, and data-driven UI.
+A modern, responsive frontend portfolio showcasing my experience as a Frontend Developer with a focus on performance, clean architecture, and data-driven UI.
 
 This project is built using a production-ready React stack and reflects how I structure, optimize, and ship real-world frontend applications.
 

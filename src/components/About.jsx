@@ -10,7 +10,7 @@ export default function About() {
           {/* Text Card */}
           <div className="md:col-span-2 bg-slate-950 rounded-2xl p-8">
             <p className="text-gray-200 leading-relaxed">
-              I am a Senior Frontend Developer with over 8 years of experience
+              I am a Frontend Developer with over 8 years of experience
               building scalable, high-performance web applications in fintech
               and enterprise environments.
             </p>
@@ -26,7 +26,7 @@ export default function About() {
               up-to-date technical skills.
             </p>
             <div className="mt-6">
-              <a href={`${import.meta.env.BASE_URL}Sheeba_Siddiqui_Senior_Frontend_Developer_CV.pdf`} target="_blank"rel="noopener noreferrer" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-500/20 transition-colors duration-300 text-sm font-medium">
+              <a href={`${import.meta.env.BASE_URL}public/Sheeba_Siddiqui_Frontend_Developer_CV.pdf`} target="_blank"rel="noopener noreferrer" download className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-500/20 transition-colors duration-300 text-sm font-medium">
                 Download Resume </a>
            </div>
           </div>

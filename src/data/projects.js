@@ -8,17 +8,19 @@ export const projects = [
     live: "#",
   },
   {
-    title: "Fintech Market Dashboard",
+    title: "Crypto Dashboard",
     description:
-      "A data-driven fintech dashboard displaying live stock and forex data with interactive charts, real-time updates, and optimized state management.",
+      "Real-time cryptocurrency dashboard built with React, TypeScript, and WebSockets. Displays live candle chart and order book using a mock Node.js backend.",
     tech: [
       "React",
-      "Redux Toolkit",
-      "GraphQL",
+      "TypeScript",
+      "Context API",
+      "WebSockets",
       "Recharts",
       "REST APIs",
+      "React Hooks"
     ],
-    github: "",
-    live: "",
+    github: "https://github.com/shesiddi/crypto-dashboard",
+    live: "https://github.com/shesiddi/crypto-dashboard",
   },
 ];

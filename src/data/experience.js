@@ -1,6 +1,18 @@
 export const experienceList = [
+    {
+    role: "FreelanceFrontend Developer",
+    company: "Freelance Frontend Developer",
+    location: "Dubai, UAE",
+    duration: "Dev 2024 – Present",
+    highlights: [
+      "Developed responsive web applications using React, Next.js, and modern JavaScript (ES6+)",
+      "Designed reusable UI components with focus on performance and scalability ",
+      "Applied AI-assisted development workflows to speed up development and improve code quality ",
+      "Collaborated with clients to understand requirements and deliver high-quality solutions"
+    ],
+  },
   {
-    role: "Senior Frontend Developer",
+    role: "Frontend Developer",
     company: "Multibank Group",
     location: "Dubai, UAE",
     duration: "Jun 2020 – Apr 2024",

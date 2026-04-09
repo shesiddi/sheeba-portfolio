@@ -4,5 +4,5 @@ export const experienceGraphData = [
   { year: "2018-2019", level: 3, label: "UI Developer" },
   { year: "2019-2020", level: 4, label: "Frontend Developer" },
   { year: "2019-2024", level: 5, label: "Frontend Developer" },
-  { year: "2024-2026", level: 6, label: "Upskilling & Comeback" },
+  { year: "2024-2026", level: 6, label: "Freelance Frontend Developer" },
 ];

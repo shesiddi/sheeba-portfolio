@@ -8,14 +8,14 @@ export default function Hero() {
               Sheeba Siddiqui
             </h1>
             <h2 className="mt-4 text-2xl md:text-3xl text-indigo-400 font-semibold">
-              Senior Frontend Developer
+              Frontend Developer
             </h2>
             <p className="mt-6 max-w-xl text-gray-300 text-base md:text-lg">
               Building scalable, high-performance web applications with
               React, Next.js, and modern frontend architecture.
             </p>
             <p className="mt-2 max-w-xl text-slate-400">
-              8+ years of experience across fintech and enterprise platforms.
+              8 years of experience across fintech and enterprise platforms.
             </p>
             <div className="mt-10 flex gap-4">
               <a
