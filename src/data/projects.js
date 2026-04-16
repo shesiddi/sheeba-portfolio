@@ -46,7 +46,7 @@ export const projects = [
       "CSS",
       "OpenWeatherMap API"
     ],
-    github: "https://github.com/shesiddi/weather-app",
+    github: "https://github.com/shesiddi/weather-app-js",
     live: "https://weather-app-js-neon.vercel.app/"
   }
 ];
